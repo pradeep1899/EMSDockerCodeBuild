@@ -3,4 +3,6 @@ os: linux
 files:
   - source: ./target/*.war
     destination: /var/lib/tomcat7/webapps/
- 
+hooks:
+  - location: script/posthook.sh
+    timeout: 180 
