@@ -3,3 +3,6 @@ os: linux
 files:
   - source: /target/EmployeeApplication.war
     destination: /var/lib/tomcat7/webapps/
+hooks:
+  BeforeInstall:
+    - location: script/posthook.sh

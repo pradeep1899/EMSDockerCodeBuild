@@ -1,1 +1,1 @@
-unzip EmployeeApplication.zip
+unzip *.zip
