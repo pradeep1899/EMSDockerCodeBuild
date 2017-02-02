@@ -1,8 +1,5 @@
 version: 0.0
 os: linux
 files:
-  - source: /target/EmployeeApplication.war
+  - source: EmployeeApplication.war
     destination: /var/lib/tomcat7/webapps/
-hooks:
-  BeforeInstall:
-    - location: script/posthook.sh
