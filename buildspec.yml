@@ -14,7 +14,6 @@ phases:
   build:
     commands:
       - echo Build started on `date`
-      - apt-get install -y maven
       - mvn clean install
       - echo Building the Docker image...
       - pwd          
